@@ -1,0 +1,8 @@
+# Local TTS virtualenv (recreate via README "Setup")
+.tts-venv/
+
+# Generated / auditioning audio — not source
+audio/
+*.wav
+
+.DS_Store

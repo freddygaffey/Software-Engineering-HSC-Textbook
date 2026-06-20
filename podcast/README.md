@@ -2,13 +2,17 @@
 
 Turn the textbook into spoken lecture recordings, fully local — no cloud, no API keys.
 
+> **Writing or generating a new episode?** Read **`AUTHORING.md`** — it's the exact
+> recipe (with fill-in templates) for the two files an author produces. `STYLE.md` covers
+> how to write the words; `SUPPLEMENTARY.md` is the full format contract.
+
 ## Structure — one folder per episode
 
 Every episode is a folder under `content/`, and **every episode has the same shape**:
 
 ```
 content/
-  20-01-What-is-AI-vs-ML/
+  SA-20-01-What-is-AI-vs-ML/
     script.md          # the spoken lecture (input to TTS)
     supplementary.md   # code listings + NESA pseudocode shown to the user (never spoken)
     af_heart.m4a       # one audio file per narrator voice the user can pick…
@@ -32,7 +36,7 @@ with the same three kinds of file. See `SUPPLEMENTARY.md` for the file contract 
 ```bash
 cd podcast
 ./generate_audio.sh                          # render every episode in content/
-./generate_audio.sh 20-01-What-is-AI-vs-ML   # render just one episode (folder name)
+./generate_audio.sh SA-20-01-What-is-AI-vs-ML   # render just one episode (folder name)
 ```
 
 Output lands inside the episode folder as `<voice>.m4a`. To render **all** the

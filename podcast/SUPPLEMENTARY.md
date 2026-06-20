@@ -8,6 +8,9 @@ this says *what file format carries them and how the code is stored*.
 Read `STYLE.md` first — especially §7.1 (the appendix) and §8 (file conventions).
 This document never contradicts it; it makes the format machine-readable.
 
+> **Generating episodes?** Use **`AUTHORING.md`** — it's the prescriptive, copy-the-
+> template recipe for the two files you must write. This document is the *why* behind it.
+
 There are **no diagrams**. They were considered and dropped — they fought the clean
 text format and add little for this listener, who would rather read code. Supplementary
 material is code and NESA-style pseudocode, nothing else.

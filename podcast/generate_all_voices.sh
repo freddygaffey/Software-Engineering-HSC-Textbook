@@ -6,7 +6,7 @@
 # The question (second) voice is the same across all of them.
 #
 # Usage:  ./generate_all_voices.sh                       # all episodes, all voices
-#         ./generate_all_voices.sh 20-01-What-is-AI-vs-ML   # one episode, all voices
+#         ./generate_all_voices.sh SA-20-01-What-is-AI-vs-ML   # one episode, all voices
 
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

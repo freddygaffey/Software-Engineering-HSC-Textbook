@@ -16,7 +16,7 @@
 #
 # Usage:
 #   ./generate_audio.sh                       # every episode in content/
-#   ./generate_audio.sh 20-01-What-is-AI-vs-ML   # one episode (folder name)
+#   ./generate_audio.sh SA-20-01-What-is-AI-vs-ML   # one episode (folder name)
 #   ENGINE=say  ./generate_audio.sh           # force the macOS engine
 #   KOKORO_VOICE=bm_george ./generate_audio.sh   # render that voice
 #
